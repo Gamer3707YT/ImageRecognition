@@ -1,0 +1,29 @@
+body {
+    animation-name: bodybg;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    color : whitesmoke;
+}
+@keyframes bodybg {
+    0%{background-color: black;}
+    50%{background-color: lightslategrey;}
+    75%{background-color: gray;}
+    100%{background-color: black;}
+}
+
+.heading{
+    width: 80%;
+    font-size: 25px;
+}
+
+.name_of_objects,#obj_result,#obj_accuracy {
+    color : lightcoral;
+
+}
+
+#camera{
+    border: 2px dashed turquoise;
+    width: 350px;
+    height: 300px;
+
+}
